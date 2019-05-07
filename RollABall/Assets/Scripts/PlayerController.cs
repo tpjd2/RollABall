@@ -25,4 +25,12 @@ public class PlayerController : MonoBehaviour
         movimento = new Vector3(movimentoH, 0f, movimentoV);
         rb.AddForce(movimento * velocidade);
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("PowerUp"))
+        {
+            other.gameObject.SetActive(false);
+        }
+    }
 }
