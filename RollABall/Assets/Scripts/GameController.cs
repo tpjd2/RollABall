@@ -56,14 +56,14 @@ public class GameController : MonoBehaviour
             // VERIFICA O TEMPO RESTANTE
             if (tempoRestante <= 0f)
             {
-                textoGameOver.text = "Time Is Out!";
-                FimDeJogo();
+                FimDeJogo("Time Is Out!");
             }
         }
     }
 
-    public void FimDeJogo()
+    public void FimDeJogo(string msg)
     {
+        textoGameOver.text = msg;
         gameOver = true;
         pc.enabled = false;
         rb.freezeRotation = true;
