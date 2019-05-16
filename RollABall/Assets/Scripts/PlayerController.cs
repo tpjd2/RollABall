@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
         rb.AddForce(movimento * velocidade);
     }
 
+    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("PowerUp"))
@@ -32,6 +33,8 @@ public class PlayerController : MonoBehaviour
             other.gameObject.SetActive(false);
             GameController.instancia.AtualizaTempo(2f);
             GameController.instancia.AtualizaPontos(1f);
+
         }
     }
+    */
 }
