@@ -522,7 +522,8 @@ PlayerSettings:
   webGLThreadsSupport: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Metro: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -534,11 +535,11 @@ PlayerSettings:
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
   metroPackageVersion: 
-  metroCertificatePath: 
+  metroCertificatePath: C:\Users\salmo.msjunior\Documents\repos\RollABall\RollABall\Assets\WSATestCertificate.pfx
   metroCertificatePassword: 
-  metroCertificateSubject: 
-  metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
+  metroCertificateSubject: Senac
+  metroCertificateIssuer: Senac
+  metroCertificateNotAfter: 00b67ba35e35d601
   metroApplicationDescription: Template_3D
   wsaImages: {}
   metroTileShortName: 
